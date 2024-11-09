@@ -8,6 +8,7 @@ function Mui() {
 
             <p>
                 test      </p>
+                <Mui.Typography>Test</Mui.Typography>
 
         </div>
     );
