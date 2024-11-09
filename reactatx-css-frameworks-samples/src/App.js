@@ -1,26 +1,3 @@
-// import './App.css';
-
-
-// function App() {
-//   return (
-//     <div className="App">
-
-//       <h1>ReactATX CSS Frameworks Sample</h1>
-//       <p>
-//         Choose from any of the options below to test out each Framework:
-//       </p>
-//       <p>
-//         Home | Bulma | Tailwind.css | Bootstrap | Skeleton | Mui        
-//       </p>
-
-//     </div>
-//   );
-// }
-
-// export default App;
-
-
-
 import React from 'react'
 
 import './App.css'
@@ -39,22 +16,22 @@ class App extends React.Component {
         return (
             <div className="App">
                 <header className="headerStyle">
-    <h1>ReactATX CSS Frameworks Sample</h1>
-    <p>
-      Choose from any of the options below to test out each Framework:
-    </p>
+              <h1 className="is-size-1">ReactATX CSS Frameworks Sample</h1>
+
                     <BrowserRouter>
                     <span className="headerBar"> | </span>
                     <Link to="/index">
                             <li className="menuItem">Home</li>
                         </Link>
                         <span className="headerBar"> | </span>
-                        <Link to="/Bootstrap">
-                            <li className="menuItem">Bootstrap</li>
-                        </Link>
-                        <span className="headerBar"> | </span>
+
                         <Link to="/Bulma">
                             <li className="menuItem">Bulma</li>
+                        </Link>
+                        <span className="headerBar"> | </span>
+                        
+                        {/* <Link to="/Bootstrap">
+                            <li className="menuItem">Bootstrap</li>
                         </Link>
                         <span className="headerBar"> | </span>
                         <Link to="/Mui">
@@ -69,6 +46,7 @@ class App extends React.Component {
                             <li className="menuItem">Tailwind</li>
                         </Link>
                         <span className="headerBar"> | </span>
+                         */}
                         <Routes>
                             <Route path="/index" element={<index />} />
                         </Routes>
