@@ -1,4 +1,4 @@
-// import 'bulma/css/bulma.min.css';
+import 'bulma/css/bulma.min.css';
 // remove the comment dashes above to include Bulma CSS inside this page
 // You can toggle the comment dashes to see how everything looks different
 // from a page with a framework included to a page without it
