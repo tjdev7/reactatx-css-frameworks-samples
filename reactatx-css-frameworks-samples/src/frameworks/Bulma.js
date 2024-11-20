@@ -107,14 +107,18 @@ function Bulma() {
       <div class="container is-widescreen">
         <br />
         <br />
-        <h3 className="is-size-2">
-          Columns:
+        <h3 className="is-size-2 has-text-weight-bold is-size-3">
+          Header Menu:
         </h3>
+        <br/>
+        <br/>
+
         <div className="columns">
-          <div className="column">First column</div>
-          <div className="column">Second column</div>
-          <div className="column">Third column</div>
-          <div className="column">Fourth column</div>
+          <div className="column">Home</div>
+          <div className="column">About</div>
+          <div className="column">App title</div>
+          <div className="column">Features</div>
+          <div className="column">Contact</div>
         </div>
         <hr />
       </div>
@@ -183,21 +187,21 @@ function Bulma() {
       <br />
       <section className="hero is-info">
         <div className="hero-body">
-          <p className="title">Info hero</p>
-          <p className="subtitle">Info subtitle</p>
+          <p className="title">Small info slide</p>
+          <p className="subtitle">subtitle</p>
         </div>
       </section>
       <section className="hero is-medium is-link">
         <div className="hero-body">
-          <p className="title">Medium hero</p>
-          <p className="subtitle">Medium subtitle</p>
+          <p className="title">Medium info slide</p>
+          <p className="subtitle"> subtitle</p>
         </div>
       </section>
       <section className="hero is-danger is-fullheight">
         <div className="hero-body">
           <div className="">
-            <p className="title">Fullheight hero</p>
-            <p className="subtitle">Fullheight subtitle</p>
+            <p className="title">Large marketing slide</p>
+            <p className="subtitle"> subtitle</p>
           </div>
         </div>
       </section>
