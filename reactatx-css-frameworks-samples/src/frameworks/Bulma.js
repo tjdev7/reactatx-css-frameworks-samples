@@ -17,7 +17,7 @@ function Bulma() {
       <h3 className="is-size-3">h3 element</h3>
       <h4 className="is-size-4">h4 element</h4>
       <h5 className="is-size-5">h5 element</h5>
-      <h6 className="is-size-6"></h6>
+      <h6 className="is-size-6">h6 element</h6>
       <p className="is-size-7">p element</p>
       <hr />
       <h3 className="is-size-2">
