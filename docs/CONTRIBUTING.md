@@ -7,7 +7,7 @@ Please follow the issue template guideline before commiting and new pull request
 
 1. Fork the repository and set the main repository as the upstream remote
 
-'''git remote add upstream git@github.com:cleanreed.git'''
+'''git remote add upstream git@github.com:reactatx-css-js-react-animations.git'''
 
 2. Make a new branch with the new PR following these naming conventions:
 

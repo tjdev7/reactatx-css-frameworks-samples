@@ -24,5 +24,5 @@
 
 <!---
 Example: 
-Fix|Update for reactatx-css-frameworks-samples/repository_name/PR-Number/name_of_fix
+Fix|Update for reactatx-css-frameworks-samples/PR-Number/name_of_fix
 --->
